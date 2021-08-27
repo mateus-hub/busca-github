@@ -1,0 +1,403 @@
+.cep-search-container {
+  position: absolute;
+  display: flex;
+  height: 650px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: baseline;
+  padding: 20px;
+}
+
+.search-container {
+  align-items: left;
+  margin-top: 5px;
+  height: 125px;
+  width: 270px;
+  margin-left: 5px;
+  background-color: #e6f7ff;
+  border-radius: 5px;
+}
+
+.search-container h1 {
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 20px;
+  margin: 5px 5px 5px 5px;
+  color: black;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  height: 70px;
+  margin: 0 10px 10px 5px;
+}
+
+.search-input {
+  background-color: #fff;
+  border: 1px solid #8c8c8c;
+  border-radius: 4px;
+  text-indent: 5px;
+  font-size: 12px;
+  padding: 10px 5px;
+  height: 15px;
+  width: 120px;
+  margin-bottom: 15px;
+}
+
+.search-input::placeholder {
+  color: #d3cccc;
+  font-size: 10px;
+}
+
+.search-button {
+  padding: 5px 5px 5px;
+  height: 25px;
+  width: 80px;
+  align-items: center;
+  font-size: 12px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.result-card-container {
+  display: block;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left: 5px;
+  height: 450px;
+  width: 270px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.img-container {
+  margin: 15px 0 5px 65px;
+  background-color: #fff;
+  height: 125px;
+  width: 125px;
+}
+
+.img-container img {
+  height: 125px;
+  width: 125px;
+}
+
+.info-container {
+  padding: 10px;
+  margin: 20px 1px 5px 3px;
+  height: 230px;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.info-container h2 {
+  margin-bottom: 20px;
+  font-size: medium;
+  color: #1890ff;
+}
+
+@media (min-width: 576px) {
+  .search-container {
+    height: 200px;
+    width: 520px;
+    margin-left: 10px;
+  }
+
+  .search-container h1 {
+    font-size: 25px;
+  }
+
+  .form-container {
+    height: 100px;
+    margin-top: 15px;
+  }
+
+  .search-input {
+    font-size: 14px;
+    height: 25px;
+    width: 140px;
+  }
+
+  .search-input::placeholder {
+    font-size: 12px;
+  }
+
+  .search-button {
+    padding: 5px 5px 5px;
+    height: 30px;
+    width: 100px;
+    font-size: 14px;
+  }
+
+  .result-card-container {
+    display: flex;
+    height: 270px;
+    width: 520px;
+    margin-left: 10px;
+  }
+
+  .img-container {
+    margin-left: 5px;
+    margin-right: 20px;
+    height: 220px;
+    width: 210px;
+  }
+
+  .img-container img {
+    height: 220px;
+    width: 210px;
+  }
+
+  .info-container {
+    margin-top: auto;
+    width: 270px;
+  }
+}
+
+@media (min-width: 768px) {
+  .cep-search-container {
+    height: 954px;
+  }
+
+  .search-container {
+    height: 250px;
+    width: 720px;
+    margin-left: 5px;
+  }
+
+  .search-container h1 {
+    font-size: 40px;
+  }
+
+  .form-container {
+    margin-top: 15px;
+  }
+
+  .search-input {
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+  }
+
+  .search-input::placeholder {
+    font-size: 18px;
+  }
+
+  .search-button {
+    height: 35px;
+    width: 120px;
+    font-size: 16px;
+  }
+
+  .result-card-container {
+    height: 370px;
+    width: 720px;
+    margin-left: 5px;
+  }
+
+  .img-container {
+    margin-left: 5px;
+    margin-right: 10px;
+    height: 310px;
+    width: 260px;
+  }
+
+  .img-container img {
+    height: 310px;
+    width: 260px;
+  }
+
+  .info-container {
+    margin-top: 15px;
+    height: 310px;
+    width: 490px;
+  }
+}
+
+@media (min-width: 992px) {
+  .cep-search-container {
+    height: 1130px;
+  }
+
+  .search-container {
+    height: 300px;
+    width: 910px;
+    margin-left: 20px;
+  }
+
+  .search-container h1 {
+    font-size: 40px;
+  }
+
+  .form-container {
+    margin-top: 15px;
+    height: 150px;
+  }
+
+  .search-input {
+    height: 45px;
+    width: 210px;
+  }
+
+  .search-input::placeholder {
+    font-size: 20px;
+  }
+
+  .search-button {
+    height: 40px;
+    width: 140px;
+    font-size: 18px;
+  }
+
+  .result-card-container {
+    height: 400px;
+    width: 910px;
+    margin-left: 20px;
+  }
+
+  .img-container {
+    margin-left: 10px;
+    margin-right: 20px;
+    height: 310px;
+    width: 280px;
+  }
+
+  .img-container img {
+    height: 310px;
+    width: 280px;
+  }
+
+  .info-container {
+    margin-top: 15px;
+    height: 310px;
+    width: 600px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cep-search-container {
+    height: 650px;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .search-container {
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-left: 25px;
+    height: 250px;
+    width: 1100px;
+  }
+
+  .search-container h1 {
+    justify-content: flex-start;
+    text-align: left;
+    margin: 30px 0px 10px 10px;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: 100px;
+    margin: 0 10px 10px 10px;
+  }
+
+  .search-input {
+    font-size: 20px;
+    padding: 10px 5px;
+    height: 200px;
+    width: 320px;
+    margin-bottom: 10px;
+  }
+
+  .result-card-container {
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 300px;
+    width: 1100px;
+    margin-left: 25px;
+  }
+
+  .img-container {
+    margin: 15px 0 10px 10px;
+    height: 230px;
+    width: 300px;
+  }
+
+  .img-container img {
+    height: 230px;
+    width: 290px;
+  }
+
+  .info-container {
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 35px;
+    height: 230px;
+    width: 820px;
+  }
+
+  .info-container h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #1890ff;
+  }
+}
+
+@media (min-width: 1400px) {
+  .search-container {
+    margin-left: 25px;
+    height: 250px;
+    width: 1310px;
+  }
+
+  .search-container h1 {
+    justify-content: flex-start;
+    text-align: left;
+    margin: 30px 0px 10px 10px;
+  }
+
+  .form-container {
+    height: 100px;
+    margin: 0 10px 10px 10px;
+  }
+
+  .search-input {
+    font-size: 20px;
+    padding: 10px 5px;
+    height: 200px;
+    width: 320px;
+    margin-bottom: 10px;
+  }
+
+  .result-card-container {
+    margin-left: 25px;
+    height: 300px;
+    width: 1310px;
+  }
+
+  .img-container {
+    margin: 15px 0 10px 10px;
+    height: 230px;
+    width: 300px;
+  }
+
+  .img-container img {
+    height: 230px;
+    width: 300px;
+  }
+
+  .info-container {
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 35px;
+    height: 230px;
+    width: 920px;
+  }
+}
